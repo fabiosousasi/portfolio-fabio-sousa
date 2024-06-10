@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 90%;
+    position: relative;
 }
 
 .nome-foto-fabio {
@@ -36,6 +37,28 @@
     width: 140px;
     border-radius: 50%;
     border: 5px solid #00b4d8;
+    position: absolute;
+    right: -97px;
+    transition: right 0.5s ease;
+}
+
+.sidebar-container:hover .nome-foto-fabio img{
+    position: absolute;
+    right: 35px;
+}
+
+.nome-foto-fabio p{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transition: top 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+.sidebar-container:hover .nome-foto-fabio p{
+    position: absolute;
+    top: 160px;
+    left: 60px;
 }
 
 .menu {
@@ -95,6 +118,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 280px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/web\ developer\ working\ w.webp");
     background-size: cover;
     background-position: center;
@@ -105,6 +129,7 @@
 .banner h1{
     font-size: 42px;
     font-weight: 500;
+    text-align: center;
 }
 
 .banner h2{
