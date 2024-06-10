@@ -48,6 +48,9 @@
 }
 
 .nome-foto-fabio p{
+    color: #00b4d8;
+    font-weight: 600;
+    text-decoration: overline;
     position: absolute;
     top: 50px;
     left: 20px;
