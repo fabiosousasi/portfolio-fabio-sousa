@@ -52,7 +52,6 @@
     top: 50px;
     left: 20px;
     transition: top 0.5s ease;
-    transition: left 0.5s ease;
 }
 
 .sidebar-container:hover .nome-foto-fabio p{
@@ -136,4 +135,5 @@
     font-size: 62px;
     letter-spacing: 3px;
     font-weight: 700;
+    text-align: center;
 }
