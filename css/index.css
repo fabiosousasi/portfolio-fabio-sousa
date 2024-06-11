@@ -16,6 +16,10 @@ h3{
     font-size: 32px;
 }
 
+h4{
+    font-size: 22px;
+}
+
 p{
     font-size: 17px;
 }
@@ -148,6 +152,14 @@ main{
     height: 930px;
 }
 
+.icon-linguagens svg{
+    transition: transform 0.5s;
+}
+
+.icon-linguagens svg:hover{
+    transform: scale(1.1);
+}
+
 .banner h1{
     font-size: 62px;
     font-weight: 500;
@@ -163,11 +175,10 @@ main{
 /* SOBRE MIM */
 .sobre-mim{
     text-align: center;
-    padding: 20px;
+    padding: 80px 20px 80px 20px;
 }
 
 .sobre-mim-titulo{
-    margin-top: 20px;
     margin-bottom: 70px;
 }
 
@@ -225,9 +236,42 @@ main{
     text-decoration: none;
 }
 
-/* .whatsapp-button-sobre-mim{
+/* RODAPE */
+footer{
+    background-color: #343a40;
+    margin-left: 285px;
+    text-align: center;
+    padding: 50px 20px 80px 20px;
+}
+
+.rodape-titulo{
     margin-top: 20px;
-    width: 250px;
-    text-decoration: none;
-    justify-content: center;
-} */
+    margin-bottom: 70px;
+}
+
+.rodape-titulo h2{
+    margin-bottom: 10px;
+}
+
+.rodape-sessao{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape-container h4{
+    margin-bottom: 10px;
+}
+
+.rodape-container ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.rodape-container ul li img{
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+.rodape-container-contato ul li{
+    text-align: left;
+}
