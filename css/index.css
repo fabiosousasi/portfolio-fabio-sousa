@@ -5,6 +5,7 @@
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 h2{
@@ -209,7 +210,7 @@ main{
 .container-sobre-descricao-direito ul li{
     list-style: none;
     text-align: left;
-    width: 250px;
+    width: 300px;
     padding: 15px 0;
     border-bottom: 1px solid #caf0f8;
     letter-spacing: 1px;
@@ -217,6 +218,11 @@ main{
 
 .container-sobre-descricao-direito ul li span{
     font-weight: 700;
+}
+
+.container-sobre-descricao-direito a{
+    color: #0077b6;
+    text-decoration: none;
 }
 
 /* .whatsapp-button-sobre-mim{
