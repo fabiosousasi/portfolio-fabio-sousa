@@ -145,7 +145,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/web\ developer\ working\ w.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../assets/web\ developer\ working\ w.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ main{
 }
 
 .banner h1{
-    font-size: 62px;
+    font-size: 72px;
     font-weight: 500;
     text-align: center;
 }
@@ -236,6 +236,17 @@ main{
     text-decoration: none;
 }
 
+.grid-experiencia tr th{
+    border: 1px solid #ffffff50;
+    padding: 5px 30px 5px 10px;
+    background-color: #149eb938;
+}
+
+.grid-experiencia tr td{
+    border: 1px solid #ffffff50;
+    padding: 5px 30px 5px 10px;
+}
+
 /* RODAPE */
 footer{
     background-color: #343a40;
@@ -264,11 +275,11 @@ footer{
 
 .rodape-container ul li{
     list-style: none;
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 .rodape-container ul li img{
-    margin-right: 10px;
+    margin-right: 15px;
     margin-bottom: -5px;
 }
 
