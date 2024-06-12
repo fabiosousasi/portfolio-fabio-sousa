@@ -254,9 +254,24 @@ main {
     padding: 5px 30px 5px 10px;
 }
 
+/* PORTFOLIO */
+.portfolio-sessao{
+    text-align: center;
+    padding: 80px 20px 80px 20px;
+    background-color: #212529;
+}
+
+.portfolio-titulo {
+    margin-bottom: 70px;
+}
+
+.portfolio-titulo h2 {
+    margin-bottom: 10px;
+}
+
 /* RODAPE */
 footer {
-    background-color: #212529;
+    background-color: #343a40;
     margin-left: 285px;
     text-align: center;
     padding: 50px 20px 80px 20px;
