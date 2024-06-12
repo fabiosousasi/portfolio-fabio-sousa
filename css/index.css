@@ -8,19 +8,19 @@
     scroll-behavior: smooth;
 }
 
-h2{
+h2 {
     font-size: 42px;
 }
 
-h3{
+h3 {
     font-size: 32px;
 }
 
-h4{
+h4 {
     font-size: 22px;
 }
 
-p{
+p {
     font-size: 17px;
 }
 
@@ -31,7 +31,7 @@ p{
     position: fixed;
     left: 0;
     width: 280px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,11 +47,6 @@ p{
 
 .nome-foto-fabio {
     text-align: center;
-    color: #fff;
-}
-
-.nome-foto-fabio p{
-    font-size: 25px;
 }
 
 .nome-foto-fabio img {
@@ -63,14 +58,15 @@ p{
     transition: right 0.5s ease;
 }
 
-.sidebar-container:hover .nome-foto-fabio img{
+.sidebar-container:hover .nome-foto-fabio img {
     position: absolute;
     right: 35px;
 }
 
-.nome-foto-fabio p{
+.nome-foto-fabio p {
     color: #00b4d8;
     font-weight: 600;
+    font-size: 25px;
     text-decoration: overline;
     position: absolute;
     top: 50px;
@@ -78,7 +74,11 @@ p{
     transition: top 0.5s ease;
 }
 
-.sidebar-container:hover .nome-foto-fabio p{
+.nome-foto-fabio-mobile {
+    display: none;
+}
+
+.sidebar-container:hover .nome-foto-fabio p {
     position: absolute;
     top: 160px;
     left: 60px;
@@ -128,19 +128,18 @@ p{
     justify-content: space-around;
 }
 
-#github svg{
+#github svg {
     background-color: #fff;
     border-radius: 50%;
 }
 
 /* MAIN */
-main{
-    background-color: #212529;
+main {
     margin-left: 285px;
 }
 
 /* BANNER */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,41 +151,48 @@ main{
     height: 930px;
 }
 
-.icon-linguagens svg{
+.icon-linguagens {
+    text-align: center;
+}
+
+.icon-linguagens svg {
+    width: 100px;
+    height: 100px;
     transition: transform 0.5s;
 }
 
-.icon-linguagens svg:hover{
+.icon-linguagens svg:hover {
     transform: scale(1.1);
 }
 
-.banner h1{
+.banner h1 {
     font-size: 72px;
     font-weight: 500;
     text-align: center;
 }
 
-.banner h2{
+.banner h2 {
     letter-spacing: 3px;
     font-weight: 700;
     text-align: center;
 }
 
 /* SOBRE MIM */
-.sobre-mim{
+.sobre-mim {
     text-align: center;
     padding: 80px 20px 80px 20px;
+    background-color: #343a40;
 }
 
-.sobre-mim-titulo{
+.sobre-mim-titulo {
     margin-bottom: 70px;
 }
 
-.sobre-mim-titulo h2{
+.sobre-mim-titulo h2 {
     margin-bottom: 10px;
 }
 
-#linha-azul{
+#linha-azul {
     width: 100px;
     height: 5px;
     margin: 0 auto;
@@ -194,31 +200,32 @@ main{
     background-color: #0077b6;
 }
 
-.container-sobre-descricao{
+.container-sobre-descricao {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-#nome-azul{
-    color:#0077b6;
+#nome-azul {
+    color: #0077b6;
     font-weight: 700;
 }
 
-.container-sobre-descricao-esquerdo{
+.container-sobre-descricao-esquerdo {
     text-align: left;
     width: 50%;
 }
 
-.container-sobre-descricao-esquerdo p{
+.container-sobre-descricao-esquerdo p {
     line-height: 1.8em;
 }
 
-.container-sobre-descricao-direito{
+.container-sobre-descricao-direito {
     width: 25%;
 }
 
-.container-sobre-descricao-direito ul li{
+.container-sobre-descricao-direito ul li {
     list-style: none;
     text-align: left;
     width: 300px;
@@ -227,62 +234,167 @@ main{
     letter-spacing: 1px;
 }
 
-.container-sobre-descricao-direito ul li span{
+.container-sobre-descricao-direito ul li span {
     font-weight: 700;
 }
 
-.container-sobre-descricao-direito a{
+.container-sobre-descricao-direito a {
     color: #0077b6;
     text-decoration: none;
 }
 
-.grid-experiencia tr th{
+.grid-experiencia tr th {
     border: 1px solid #ffffff50;
     padding: 5px 30px 5px 10px;
     background-color: #149eb938;
 }
 
-.grid-experiencia tr td{
+.grid-experiencia tr td {
     border: 1px solid #ffffff50;
     padding: 5px 30px 5px 10px;
 }
 
 /* RODAPE */
-footer{
-    background-color: #343a40;
+footer {
+    background-color: #212529;
     margin-left: 285px;
     text-align: center;
     padding: 50px 20px 80px 20px;
 }
 
-.rodape-titulo{
+.rodape-titulo {
     margin-top: 20px;
     margin-bottom: 70px;
 }
 
-.rodape-titulo h2{
+.rodape-titulo h2 {
     margin-bottom: 10px;
 }
 
-.rodape-sessao{
+.rodape-sessao {
     display: flex;
     justify-content: space-evenly;
 }
 
-.rodape-container h4{
+.rodape-container h4 {
     margin-bottom: 10px;
 }
 
-.rodape-container ul li{
+.rodape-container ul li {
     list-style: none;
     padding: 8px 0;
 }
 
-.rodape-container ul li img{
+.rodape-container ul li img {
     margin-right: 15px;
     margin-bottom: -5px;
 }
 
-.rodape-container-contato ul li{
+.rodape-container-contato ul li {
     text-align: left;
+}
+
+@media(max-width:1250px) {
+    .container-sobre-descricao-esquerdo {
+        width: 100%;
+    }
+
+    .container-sobre-descricao-direito {
+        margin: 30px 0;
+        width: auto;
+    }
+}
+
+@media(max-width:1024px) {
+
+    /* GERAL */
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    main,
+    footer {
+        margin-left: 0;
+    }
+
+    /* SIDEBAR */
+    .sidebar-sessao {
+        display: none;
+    }
+
+    /* BANNER */
+    .banner {
+        height: 600px;
+        padding: 0 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../assets/web\ developer\ working\ w.webp");
+    }
+
+    .banner h1 {
+        font-size: 60px;
+    }
+
+    .icon-linguagens svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nome-foto-fabio-mobile {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nome-foto-fabio-mobile img {
+        width: 140px;
+        border-radius: 50%;
+        border: 5px solid #00b4d8;
+        transition: right 0.5s ease;
+    }
+
+    .nome-foto-fabio-mobile p {
+        color: #fff;
+        font-weight: 600;
+        font-size: 25px;
+        text-decoration: overline;
+        margin-top: 10px;
+    }
+
+    /* SOBRE MIM */
+    .sobre-mim {
+        padding: 20px;
+    }
+
+    .sobre-mim-titulo {
+        margin-bottom: 50px;
+    }
+
+    .grid-experiencia tr th {
+        padding: 8px;
+    }
+
+    .grid-experiencia tr td {
+        padding: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px;
+    }
+
+    .rodape-titulo {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
 }
