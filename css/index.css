@@ -234,6 +234,7 @@ main {
 .container-sobre-descricao-direito ul li {
     list-style: none;
     text-align: left;
+    font-size: 17px;
     width: 300px;
     padding: 15px 0;
     border-bottom: 1px solid #caf0f8;
