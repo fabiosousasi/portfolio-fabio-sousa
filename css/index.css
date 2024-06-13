@@ -24,7 +24,7 @@ p {
     font-size: 17px;
 }
 
-.padrao-sessoes{
+.padrao-sessoes {
     text-align: center;
     padding: 50px 20px;
 }
@@ -259,7 +259,7 @@ main {
 }
 
 /* PORTFOLIO */
-.portfolio-sessao{
+.portfolio-sessao {
     background-color: #212529;
 }
 
@@ -309,7 +309,7 @@ footer {
     text-align: left;
 }
 
-.copy{
+.copy {
     position: fixed;
     bottom: 0;
 }
@@ -411,28 +411,30 @@ footer {
     }
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
+
     /* GERAL */
-    .padrao-sessoes{
+    .padrao-sessoes {
         padding: 30px 20px;
     }
 
     /* BANNER */
-    .banner h1{
-        font-size: 50px;
+    .banner h1 {
+        font-size: 45px;
+        letter-spacing: 1px;
         line-height: 1.1em;
     }
 
-    .icon-linguagens svg{
+    .icon-linguagens svg {
         width: 60px;
     }
 
     /* SOBRE MIM */
-    .sobre-mim-titulo{
+    .sobre-mim-titulo {
         margin-bottom: 40px;
     }
 
-    .grid-experiencia img{
+    .grid-experiencia img {
         width: 20px !important;
     }
 
@@ -447,31 +449,31 @@ footer {
     }
 
     /* FOOTER */
-    .rodape-container{
+    .rodape-container {
         width: 100%;
     }
 
-    .rodape-container h4{
+    .rodape-container h4 {
         margin-bottom: 5px;
     }
 
-    .rodape-container-contato{
+    .rodape-container-contato {
         margin-top: 20px;
     }
 
-    .rodape-container-contato ul li{
+    .rodape-container-contato ul li {
         text-align: center;
     }
 
-    .rodape-container ul li img{
+    .rodape-container ul li img {
         margin-right: 10px;
     }
 
-    .rodape-titulo{
+    .rodape-titulo {
         margin-bottom: 40px;
     }
 
-    .copy{
+    .copy {
         position: relative;
         bottom: -25px;
     }
