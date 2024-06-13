@@ -427,6 +427,7 @@ footer {
 
     .icon-linguagens svg {
         width: 60px;
+        height: 60px;
     }
 
     /* SOBRE MIM */
@@ -436,6 +437,7 @@ footer {
 
     .grid-experiencia img {
         width: 20px !important;
+        height: 20px !important;
     }
 
     .grid-experiencia tr th {
