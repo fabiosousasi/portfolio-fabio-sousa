@@ -135,6 +135,14 @@ p {
     justify-content: space-around;
 }
 
+.redes-sociais a{
+    transition: transform 0.2s;
+}
+
+.redes-sociais a:hover{
+    transform: scale(1.2);
+}
+
 #github svg {
     background-color: #fff;
     border-radius: 50%;
