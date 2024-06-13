@@ -57,6 +57,7 @@ p {
 
 .nome-foto-fabio img {
     width: 140px;
+    height: auto;
     border-radius: 50%;
     border: 5px solid #00b4d8;
     position: absolute;
