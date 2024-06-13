@@ -24,6 +24,11 @@ p {
     font-size: 17px;
 }
 
+.padrao-sessoes{
+    text-align: center;
+    padding: 50px 20px;
+}
+
 /* SIDEBAR */
 .sidebar-sessao {
     background-color: #111418;
@@ -179,8 +184,6 @@ main {
 
 /* SOBRE MIM */
 .sobre-mim {
-    text-align: center;
-    padding: 80px 20px 80px 20px;
     background-color: #343a40;
 }
 
@@ -256,8 +259,6 @@ main {
 
 /* PORTFOLIO */
 .portfolio-sessao{
-    text-align: center;
-    padding: 80px 20px 80px 20px;
     background-color: #212529;
 }
 
@@ -273,12 +274,9 @@ main {
 footer {
     background-color: #343a40;
     margin-left: 285px;
-    text-align: center;
-    padding: 50px 20px 80px 20px;
 }
 
 .rodape-titulo {
-    margin-top: 20px;
     margin-bottom: 70px;
 }
 
@@ -308,6 +306,11 @@ footer {
 
 .rodape-container-contato ul li {
     text-align: left;
+}
+
+.copy{
+    position: fixed;
+    bottom: 0;
 }
 
 @media(max-width:1250px) {
@@ -388,10 +391,6 @@ footer {
     }
 
     /* SOBRE MIM */
-    .sobre-mim {
-        padding: 20px;
-    }
-
     .sobre-mim-titulo {
         margin-bottom: 50px;
     }
@@ -405,10 +404,6 @@ footer {
     }
 
     /* FOOTER */
-    footer {
-        padding: 20px;
-    }
-
     .rodape-titulo {
         margin-top: 0;
         margin-bottom: 50px;
@@ -416,6 +411,11 @@ footer {
 }
 
 @media(max-width:767px){
+    /* GERAL */
+    .padrao-sessoes{
+        padding: 30px 20px;
+    }
+
     /* BANNER */
     .banner h1{
         font-size: 50px;
@@ -446,8 +446,16 @@ footer {
     }
 
     /* FOOTER */
+    .rodape-container{
+        width: 100%;
+    }
+
+    .rodape-container h4{
+        margin-bottom: 5px;
+    }
+
     .rodape-container-contato{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .rodape-container-contato ul li{
@@ -460,5 +468,10 @@ footer {
 
     .rodape-titulo{
         margin-bottom: 40px;
+    }
+
+    .copy{
+        position: relative;
+        bottom: -25px;
     }
 }
