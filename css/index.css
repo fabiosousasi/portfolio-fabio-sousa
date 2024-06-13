@@ -149,7 +149,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../assets/web\ developer\ working\ w.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/web\ developer\ working\ w.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,8 +171,9 @@ main {
 }
 
 .banner h1 {
-    font-size: 72px;
-    font-weight: 500;
+    font-size: 82px;
+    font-weight: 600;
+    letter-spacing: 3px;
     text-align: center;
 }
 
@@ -328,7 +329,7 @@ footer {
 
     /* GERAL */
     h2 {
-        font-size: 32px;
+        font-size: 38px;
     }
 
     h3 {
@@ -336,7 +337,7 @@ footer {
     }
 
     h4 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     p {
