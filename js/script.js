@@ -2,6 +2,7 @@ var abrirMenu = document.querySelector(".abrir-menu-icon");
 var fecharMenu = document.querySelector(".fechar-menu-icon");
 var menuAtivo = document.querySelector(".menu-hamburger");
 
+// função que abre e fecha o menu hamburguer
 abrirMenu.addEventListener('click', function () {
     abrirMenu.style.display = "none";
     fecharMenu.style.display = "block";
@@ -17,6 +18,7 @@ fecharMenu.addEventListener('click', function () {
 var gridPortfolio = document.querySelectorAll(".grid-portfolio");
 var gridLinkProjetos = document.querySelectorAll(".grid-portfolio-links-projetos");
 
+// função que faz aparecer os links de cada portfólio
 gridPortfolio.forEach(function(gridPortfolioAtual, index){
     gridPortfolioAtual.addEventListener('mouseover', function(){
         gridLinkProjetos[index].classList.add("grid-portfolio-links-projetos-ativo");
