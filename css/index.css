@@ -25,6 +25,11 @@ p {
     padding: 50px 20px;
 }
 
+/* MENU HAMBURGUER INATIVO NO DESKTOP */
+.menu-hamburguer-desk-inativo{
+    display: none;
+}
+
 /* SIDEBAR */
 .sidebar-sessao {
     background-color: #111418;
@@ -116,6 +121,7 @@ p {
 
 #whatsapp-button:hover {
     border: 2px solid #00b4d8;
+    box-shadow: 0px 0px 8px 0px #0077b6;
     color: #fff;
 }
 
@@ -331,6 +337,59 @@ footer {
 }
 
 @media(max-width:1024px) {
+
+    /* MENU HAMBURGER */
+    .botao-menu-hamburguer{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+    }
+
+    .menu-hamburger{
+        position: absolute;
+        overflow: hidden;
+        top: 60px;
+        right: 20px;
+        width: 0px;
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #111418;
+        padding: 5px 0;
+        border-radius: 8px;
+        transition: height 0.5s ease-in-out;
+    }
+
+    .menu-hamburger-ativo{
+        width: 240px;
+        height: 240px;
+    }
+
+    .menu-hamburger a{
+        text-decoration: none;
+        margin: 10px 0;
+        font-size: 17px;
+    }
+
+    #whatsapp-button-menu{
+        text-align: center;
+        background-color: #0077b6;
+        padding: 5px 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px 0px #0077b6;
+    }
+
+    #whatsapp-button-menu svg{
+        margin-right: 8px;
+        margin-bottom: -3px;
+    }
+
+    .fechar-menu-icon{
+        display: none;
+    }
 
     /* GERAL */
     h2 {
