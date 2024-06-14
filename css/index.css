@@ -281,14 +281,14 @@ main {
     margin-bottom: 10px;
 }
 
-.container-grid-portfolio{
+.container-grid-portfolio {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.grid-portfolio{
-    margin: 20px;
+.grid-portfolio {
+    margin: 15px;
     padding: 10px;
     border-radius: 10px;
     background-color: #253a44f5;
@@ -296,11 +296,15 @@ main {
     height: 460px;
 }
 
-.grid-portfolio-titulo{
+.grid-portfolio-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     margin-bottom: 15px;
     font-weight: 600;
     letter-spacing: 1px;
+    height: 50px;
 }
 
 .grid-portfolio-thumb {
@@ -310,7 +314,7 @@ main {
     border-radius: 10px;
 }
 
-.grid-portfolio-links-projetos{
+.grid-portfolio-links-projetos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -319,17 +323,17 @@ main {
     overflow: hidden;
 }
 
-.grid-portfolio-links-projetos-ativo{
+.grid-portfolio-links-projetos-ativo {
     height: 40px;
 }
 
-.link-projeto{
+.link-projeto {
     transition: 0.2s;
     padding: 3px;
     border-radius: 10px;
 }
 
-.link-projeto:hover{
+.link-projeto:hover {
     background-color: #0077b6;
     box-shadow: 0 0 4px 0 #0077b6;
 }
@@ -516,7 +520,7 @@ footer {
     }
 
     /* PORTFOLIO */
-    .grid-portfolio-links-projetos{
+    .grid-portfolio-links-projetos {
         height: 40px;
     }
 
