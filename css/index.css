@@ -516,6 +516,11 @@ footer {
         padding: 8px;
     }
 
+    /* PORTFOLIO */
+    .grid-portfolio-links-projetos{
+        height: 40px;
+    }
+
     /* FOOTER */
     .rodape-titulo {
         margin-top: 0;
