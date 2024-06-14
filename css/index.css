@@ -349,7 +349,7 @@ footer {
     .menu-hamburger{
         position: fixed;
         overflow: hidden;
-        top: 60px;
+        top: 75px;
         right: 20px;
         width: 0px;
         height: 0px;
