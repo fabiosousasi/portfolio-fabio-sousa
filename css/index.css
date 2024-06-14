@@ -26,7 +26,7 @@ p {
 }
 
 /* MENU HAMBURGUER INATIVO NO DESKTOP */
-.menu-hamburguer-desk-inativo{
+.menu-hamburguer-desk-inativo {
     display: none;
 }
 
@@ -134,11 +134,11 @@ p {
     justify-content: space-around;
 }
 
-.redes-sociais a{
+.redes-sociais a {
     transition: transform 0.2s;
 }
 
-.redes-sociais a:hover{
+.redes-sociais a:hover {
     transform: scale(1.2);
 }
 
@@ -281,6 +281,60 @@ main {
     margin-bottom: 10px;
 }
 
+.container-grid-portfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.grid-portfolio{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #253a44f5;
+    width: 280px;
+    height: 460px;
+}
+
+.grid-portfolio-titulo{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.grid-portfolio-thumb {
+    min-width: 260px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-portfolio-links-projetos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 0;
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.grid-portfolio-links-projetos-ativo{
+    height: 40px;
+}
+
+.link-projeto{
+    transition: 0.2s;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.link-projeto:hover{
+    background-color: #0077b6;
+    box-shadow: 0 0 4px 0 #0077b6;
+}
+
 /* RODAPE */
 footer {
     background-color: #343a40;
@@ -339,14 +393,14 @@ footer {
 @media(max-width:1024px) {
 
     /* MENU HAMBURGER */
-    .botao-menu-hamburguer{
+    .botao-menu-hamburguer {
         position: fixed;
         top: 10px;
         right: 10px;
         display: block;
     }
 
-    .menu-hamburger{
+    .menu-hamburger {
         position: fixed;
         overflow: hidden;
         top: 75px;
@@ -363,18 +417,18 @@ footer {
         transition: height 0.5s ease-in-out;
     }
 
-    .menu-hamburger-ativo{
+    .menu-hamburger-ativo {
         width: 240px;
         height: 240px;
     }
 
-    .menu-hamburger a{
+    .menu-hamburger a {
         text-decoration: none;
         margin: 10px 0;
         font-size: 17px;
     }
 
-    #whatsapp-button-menu{
+    #whatsapp-button-menu {
         text-align: center;
         background-color: #0077b6;
         padding: 5px 20px;
@@ -382,12 +436,12 @@ footer {
         box-shadow: 0px 0px 8px 0px #0077b6;
     }
 
-    #whatsapp-button-menu svg{
+    #whatsapp-button-menu svg {
         margin-right: 8px;
         margin-bottom: -3px;
     }
 
-    .fechar-menu-icon{
+    .fechar-menu-icon {
         display: none;
     }
 
