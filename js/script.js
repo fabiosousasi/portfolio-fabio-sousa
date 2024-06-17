@@ -28,3 +28,27 @@ gridPortfolio.forEach(function(gridPortfolioAtual, index){
         gridLinkProjetos[index].classList.remove("grid-portfolio-links-projetos-ativo");
     });
 });
+
+// função que faz o efeito suave quando o scroll é ativado
+function initAnimacaoScroll() {
+    const sections = document.querySelectorAll('.js-scroll, .js-scroll-esquerda, .js-scroll-direita');
+    if(sections.length) {
+      const windowMetade = window.innerHeight * 0.8;
+  
+      function animaScroll() {
+        sections.forEach((section) => {
+          const sectionTop = section.getBoundingClientRect().top;
+          const isSectionVisible = (sectionTop - windowMetade) < 0;
+          if(isSectionVisible)
+            section.classList.add('ativo');
+          else 
+            section.classList.remove('ativo');
+        })
+      }
+  
+      animaScroll();
+  
+      window.addEventListener('scroll', animaScroll);
+    }
+  }
+  initAnimacaoScroll();
